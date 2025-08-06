@@ -1,0 +1,51 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #f4f4f4;
+}
+
+.input-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+li {
+  padding: 10px;
+  background: #eee;
+  margin-bottom: 5px;
+  cursor: pointer;
+  text-align: left;
+  position: relative;
+}
+
+li.checked {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.close {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
